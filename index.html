@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM checkpoint</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d87acf99f6.js" crossorigin="anonymous"></script>
+</head>
+<body class="body-content">
+    <section id="card">
+    <img id="logo-restaurant" src="./data/ico/sigle restaurant.jpg" alt="logo-restaurant">
+    <div class="carttest">
+        <img src="./data/ico/cart-icon.jpg" alt="cart" class="carticon2">
+        <div class="carticon">Total Achat (DT)</div>
+    </div>
+    <button id="TP">0</button>
+    </section>
+    <section>
+        <div>
+            <div class="card-group">
+                <div class="card">
+                    <img class="card-img-top" src="./data/produit/spagetti.jpg" alt="food 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Spagetti sauce tomate</h5>
+                        <p class="card-txt">spagetti sauce tomate fraiche 
+                             il s’agit là des tomates qui sont passées dans un appareil manuel (ou pas) spécial fait maison, on sépare
+                              la peau de la chair et écrase cette dernière afin d’obtenir une véritable sauce lisse.</p>
+                    
+                    </div>
+                    <div>
+                        <p class="card-text">Prix unitaire TTC : <strong class="PUTTC">35</strong>DT</p>
+                        <div class="add-rem-btn">
+                            <button class="add">+</button>
+                            <button class="qte">0</button>
+                            <button class="rem">-</button>
+                            <a><img class="ico" src="./data/ico/empty-heart-ico.jpeg"></a>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./data/produit/pesto.jpg" alt="food 2">
+            <div class="card-body">
+                <h5 class="card-title">spaghetti sauce pesto</h5>
+                <p class="card-txt">spaghetti sauce pesto , Le pesto est obtenu en pilant (remuant sous pression) le basilic avec du sel, des 
+                    pignons de pin et de l'ail, le tout assaisonné de Parmigiano Reggiano, de Fiore sardo et d'huile d'olive extra vierge</p>
+                    <div>
+                        <p class="card-text">Prix unitaire TTC :<strong class="PUTTC">55</strong>DT</p>
+                        <div class="add-rem-btn">
+                            <button class="add">+</button> 
+                            <button class="Qte">0</button>
+                            <button class="rem">-</button>
+                            <a>
+                                <img class="ico" src="./data/ico/empty-heart-ico.jpeg">
+                            </a>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="./data/produit/fruitdemer.jpg" alt="food 3">
+            <div class="card-body">
+                <h5 class="card-title">spaghetti fruit de mer</h5>
+                <p class="card-text">spaghetti avec les fruits de mer qui sont sont réputés bons pour la santé en apportant divers
+                     oligo-éléments, dont l'iode, le magnésium, la vitamine B12… Néanmoins, tout comme la viande, ils doivent être consommés frais et sains (non avariés), faute de quoi 
+                    ils peuvent causer des intoxications sévères</p>
+            </div>
+        </div>
+        <div>
+            <p class="card-text">Prix unitaire TTC :<strong class="PUTTC">75</strong>DT</p>
+            <div class="add-rem-btn">
+                <button class="add">+</button> 
+                <button class="Qte">0</button>
+                <button class="rem">-</button>
+                <a>
+                    <img class="ico" src="./data/ico/empty-heart-ico.jpeg">
+                </a>
+            </div>
+        </div>
+    </div>    
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
